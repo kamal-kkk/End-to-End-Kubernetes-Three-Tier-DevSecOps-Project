@@ -1,5 +1,4 @@
-containers:
-- name: frontend
-  image: kamalguntur/myapp:v2
-  ports:
-  - containerPort: 80
+ports:
+- port: 80
+  targetPort: 80
+  nodePort: 32000
